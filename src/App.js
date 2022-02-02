@@ -1,4 +1,5 @@
-import {useState} from 'react'
+import {useState} from 'react';
+import styles from './App.css';
 
 const App = () => {
   const [name, setName] = useState('kanye')
@@ -20,6 +21,8 @@ const App = () => {
     <button onClick={toggleTrueFalse}>TOGGLE</button>
 
     <button onClick={changeName}>CHANGE</button>
+
+    <div className={styles.backImage}></div>
   </>
   )
 }
