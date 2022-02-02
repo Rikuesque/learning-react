@@ -1,5 +1,6 @@
 import {useState} from 'react';
-import styles from './App.css';
+import BackImage from './MainPage/backImage.js';
+import styles from './MainPage/backImage.css';
 
 const App = () => {
   const [name, setName] = useState('kanye')
@@ -22,7 +23,7 @@ const App = () => {
 
     <button onClick={changeName}>CHANGE</button>
 
-    <div className={styles.backImage}></div>
+    <div><BackImage /></div>
   </>
   )
 }
