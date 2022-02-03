@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import lightbow from './Lightbow.jpeg'
+import rollingcity from './Rollingcity.jpeg'
 
 const App = () => {
   const [name, setName] = useState('kanye')
@@ -19,10 +19,10 @@ const App = () => {
     </ul>
 
     <button onClick={toggleTrueFalse}>TOGGLE</button>
-
+``
     <button onClick={changeName}>CHANGE</button>
 
-    <div style={{width: 100, height: 56, backgroundImage: "url(${lightbow})", backgroundColor: 'gray'}}></div>
+    <div style={{width: '100vw', height: '100vh', backgroundImage: `url(${rollingcity})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain'}}></div>
   </>
   )
 }
