@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import MainImage from './MainPage/mainImage';
+import lightbow from './Lightbow.jpeg'
 
 const App = () => {
   const [name, setName] = useState('kanye')
@@ -22,7 +22,7 @@ const App = () => {
 
     <button onClick={changeName}>CHANGE</button>
 
-    <div><MainImage /></div>
+    <div style={{width: 100, height: 56, backgroundImage: "url(${lightbow})", backgroundColor: 'gray'}}></div>
   </>
   )
 }

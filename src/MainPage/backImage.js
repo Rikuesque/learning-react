@@ -1,7 +1,5 @@
 import styles from './backImage.css';
-
-function BackImage() {
+console.log(styles)
+export function BackImage() {
     return <div className={styles.backImage}></div>;
 }
-
-export default BackImage;
